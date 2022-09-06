@@ -41,5 +41,8 @@ phrases <- c(
   "whale whale whale.. looks who's here",
   "whale done!!",
   "get whale soon",
-  "what do u call a pod of noisy whales? ... an orcastra:)"
+  "what do u call a pod of noisy whales? ... an orcastra:)",
+  "i hope you are whale!",
+  "it's been a whale ;)",
+  "whale-p!"
 )
