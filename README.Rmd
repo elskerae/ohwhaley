@@ -1,0 +1,43 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ohwhaley
+
+The goal of `ohwhaley` is to make you smile with a whale! 
+
+## Installation
+
+You can install the development version of ohwhaley from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("elskerae/ohwhaley")
+```
+
+## Example
+
+`ohwhaley` contains 1 function, `say()`. When left blank, this will produce a whale pun from a random selection.
+
+```{r example}
+library(ohwhaley)
+## basic example code
+say()
+```
+
+Otherwise, you can always tell whaley what to say! For example:
+
+```{r customisable example}
+say("purr")
+```
